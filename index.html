@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b49aa350c653a4e3ab230e03923825f1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b49aa350c653a4e3ab230e03923825f1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b49aa350c653a4e3ab230e03923825f1 = L.map(
+                "map_b49aa350c653a4e3ab230e03923825f1",
+                {
+                    center: [44.928, -93.1692544],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 50,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6647967b41686fbef3f680faefec0204 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_6647967b41686fbef3f680faefec0204.addTo(map_b49aa350c653a4e3ab230e03923825f1);
+        
+    
+            var marker_47755d2509ed61c5e3706fdaf2d3ca47 = L.marker(
+                [44.925308, -93.182822],
+                {}
+            ).addTo(map_b49aa350c653a4e3ab230e03923825f1);
+        
+    
+        var popup_806a42c3f0fe2832641a83b3cb920f63 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_24dd0445b8bef3a79a0e7628ee0ff2ff = $(`<div id="html_24dd0445b8bef3a79a0e7628ee0ff2ff" style="width: 100.0%; height: 100.0%;">St. Mary’s Hall – 2nd Floor - there is a lady in gray that appears in the doorways of different dorms watching over students. There are also reports of people feeling cold fingers on the back of their necks and being tapped awake right before their alarm goes off. Other times, there is the sound of a lady rushing down certain dorm hallways. Although these things happen, none are threatening.</div>`)[0];
+                popup_806a42c3f0fe2832641a83b3cb920f63.setContent(html_24dd0445b8bef3a79a0e7628ee0ff2ff);
+            
+        
+
+        marker_47755d2509ed61c5e3706fdaf2d3ca47.bindPopup(popup_806a42c3f0fe2832641a83b3cb920f63)
+        ;
+
+        
+    
+    
+            marker_47755d2509ed61c5e3706fdaf2d3ca47.bindTooltip(
+                `<div>
+                     College of St. Catherine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29bb36f4c550cc4d41bb377d6e35be0e = L.marker(
+                [44.9659651, -93.1648051],
+                {}
+            ).addTo(map_b49aa350c653a4e3ab230e03923825f1);
+        
+    
+        var popup_2162b3abbe99bb89f138a6a25a9123d6 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6cade963a45ba21ce64cccf64242ef3d = $(`<div id="html_6cade963a45ba21ce64cccf64242ef3d" style="width: 100.0%; height: 100.0%;">The music hall upstairs in the "Old Main" building has a portrait of the man the hall was named for. At night he gets out of the painting and wanders the hall, sometimes playing the piano.</div>`)[0];
+                popup_2162b3abbe99bb89f138a6a25a9123d6.setContent(html_6cade963a45ba21ce64cccf64242ef3d);
+            
+        
+
+        marker_29bb36f4c550cc4d41bb377d6e35be0e.bindPopup(popup_2162b3abbe99bb89f138a6a25a9123d6)
+        ;
+
+        
+    
+    
+            marker_29bb36f4c550cc4d41bb377d6e35be0e.bindTooltip(
+                `<div>
+                     Hamline University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1dbeeeb4b7857cdccb935ce5c23004d1 = L.marker(
+                [44.9170636, -93.1250152],
+                {}
+            ).addTo(map_b49aa350c653a4e3ab230e03923825f1);
+        
+    
+        var popup_b03fbadf6fce7168a32479e30364d776 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_504afc4a12a12b3e1deb29493f496e9b = $(`<div id="html_504afc4a12a12b3e1deb29493f496e9b" style="width: 100.0%; height: 100.0%;">Sightings of white figures. Lots of Paranormal activities such as children screaming. It's a place where many suicides, murders, and rapes took place. Get's pretty windy around the Caves.</div>`)[0];
+                popup_b03fbadf6fce7168a32479e30364d776.setContent(html_504afc4a12a12b3e1deb29493f496e9b);
+            
+        
+
+        marker_1dbeeeb4b7857cdccb935ce5c23004d1.bindPopup(popup_b03fbadf6fce7168a32479e30364d776)
+        ;
+
+        
+    
+    
+            marker_1dbeeeb4b7857cdccb935ce5c23004d1.bindTooltip(
+                `<div>
+                     Lillydale Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_643905033fadc699d353c7fa169d416f = L.marker(
+                [44.9170636, -93.1250152],
+                {}
+            ).addTo(map_b49aa350c653a4e3ab230e03923825f1);
+        
+    
+        var popup_637397072d25b8c19357e1d109f2b923 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e5f3df8622aac23723f05522912a1ae1 = $(`<div id="html_e5f3df8622aac23723f05522912a1ae1" style="width: 100.0%; height: 100.0%;">March 2008 Update: Have been removed. It is not encouraged for anyone to go into the Lilydale Caves or the lesser known ACTUAL Wabasha Caves. See attached links to understand. It's bad to encourage anyone else to go here - especially without knowing the dangers could be fatal. This place is extremely dangerous. Please refer to the 2 links listed for proof of any danger at lest 3 teenagers have died from carbon monoxide poisoning  http://news.minnesota.publicradio.org/features/2004/04/28_ap_cavedeaths</div>`)[0];
+                popup_637397072d25b8c19357e1d109f2b923.setContent(html_e5f3df8622aac23723f05522912a1ae1);
+            
+        
+
+        marker_643905033fadc699d353c7fa169d416f.bindPopup(popup_637397072d25b8c19357e1d109f2b923)
+        ;
+
+        
+    
+    
+            marker_643905033fadc699d353c7fa169d416f.bindTooltip(
+                `<div>
+                     Lilydale Caves &amp; Wabasha Street Caves
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ca4e39a8534d94f3f0d1238a08fcea38 = L.marker(
+                [44.9428089, -93.1139029],
+                {}
+            ).addTo(map_b49aa350c653a4e3ab230e03923825f1);
+        
+    
+        var popup_a414501a24d03142f0519e23d05f27d5 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0f6f4f71bdf510b5b317a26d38b0ae60 = $(`<div id="html_0f6f4f71bdf510b5b317a26d38b0ae60" style="width: 100.0%; height: 100.0%;">many instances happen especially the darkroom. The spirit playfully moves objects around and changes the time on the timer. It is said that a wealthy man (carpenter whose studio was in the darkroom) lived there and was cheating on his wife with the maid. after refusing to leave his wife the maid hung herself on the main stairwell banister. The late night janitors experience sounds and lights on/off nightly and hear children. One employee saw the man in his flannel.</div>`)[0];
+                popup_a414501a24d03142f0519e23d05f27d5.setContent(html_0f6f4f71bdf510b5b317a26d38b0ae60);
+            
+        
+
+        marker_ca4e39a8534d94f3f0d1238a08fcea38.bindPopup(popup_a414501a24d03142f0519e23d05f27d5)
+        ;
+
+        
+    
+    
+            marker_ca4e39a8534d94f3f0d1238a08fcea38.bindTooltip(
+                `<div>
+                     College of Visual Arts
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a15e3c61037dfd5f951d6ba63aa185ba = L.marker(
+                [44.9410269, -93.103947],
+                {}
+            ).addTo(map_b49aa350c653a4e3ab230e03923825f1);
+        
+    
+        var popup_e075ce08086f3b0aefebd90ef01fab7f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0dc7776f26420ae2b2df904da3517b31 = $(`<div id="html_0dc7776f26420ae2b2df904da3517b31" style="width: 100.0%; height: 100.0%;">Forepaugh's Restaurant is located in an old Victorian mansion named after the mansions' original owner, Joseph Forepaugh. Mr. Forepaugh was into the dry good's business, so when his fortune was made, he bought this beautiful mansion. He also decided to hire himself some servants to accompany his new found wealth. Well, Mr. Forepaugh became rather fond of one of his servants in particular. Her name was Molly, and the two of them soon began to have a steamy love affair together. However, things got rather ugly after Mrs. Forepaugh caught the two together in the midst of their lovemaking. She insisted Mr. Forepaugh break off the affair, and so he did. This did not settle well with Molly, who was now pregnant with Mr. Forepaugh's child. She became so distraught over the situation that she went to the third floor, tied a noose around herself and a light fixture, then threw herself out of the window. Mr. Forepaugh was so devastated over her death that he went into a deep depression and eventually shot himself at the nearby railroad tracks. It is said that Mr. Forepaugh and Molly now haunt the mansion. People have claimed to see Molly near the area where she hanged herself. Mr. Forepaugh, on the other hand, has been seen by employees and customers in the dining room area. They say that a nice looking guy just walks through the dining room as if he owns the place.</div>`)[0];
+                popup_e075ce08086f3b0aefebd90ef01fab7f.setContent(html_0dc7776f26420ae2b2df904da3517b31);
+            
+        
+
+        marker_a15e3c61037dfd5f951d6ba63aa185ba.bindPopup(popup_e075ce08086f3b0aefebd90ef01fab7f)
+        ;
+
+        
+    
+    
+            marker_a15e3c61037dfd5f951d6ba63aa185ba.bindTooltip(
+                `<div>
+                     Forepaugh's Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_784833e94bb510638d97ade527da81e5 = L.marker(
+                [44.9372958, -93.0984113],
+                {}
+            ).addTo(map_b49aa350c653a4e3ab230e03923825f1);
+        
+    
+        var popup_65093923eb59859ed6c14b01509b3736 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9ce04be5c5246b47f0cf42c75c3965f1 = $(`<div id="html_9ce04be5c5246b47f0cf42c75c3965f1" style="width: 100.0%; height: 100.0%;">An engine room worker decided to cool off and take a dip in the Mississippi. He climbed the stairs to the top deck and even continued on up to the roof of the pilothouse where he planned to dive into the river. Instead, he slipped and fell off the pilothouse, hit a guardrail, and fell into the river. Hitting the guardrail on the way down paralyzed him and he drown in the river, unable to swim for the surface. Footsteps are heard going up the staircase and up to the roof of the pilothouse. Then a splash in heard. But no one is there.</div>`)[0];
+                popup_65093923eb59859ed6c14b01509b3736.setContent(html_9ce04be5c5246b47f0cf42c75c3965f1);
+            
+        
+
+        marker_784833e94bb510638d97ade527da81e5.bindPopup(popup_65093923eb59859ed6c14b01509b3736)
+        ;
+
+        
+    
+    
+            marker_784833e94bb510638d97ade527da81e5.bindTooltip(
+                `<div>
+                     Paddelford Packet Boat Company-Jonathan Paddelford
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e42ce2caead0807504350a7ca440492 = L.marker(
+                [44.95515, -93.102233],
+                {}
+            ).addTo(map_b49aa350c653a4e3ab230e03923825f1);
+        
+    
+        var popup_3219e0200ed86f0d0cdec26686336a1e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ebd2b9444906c5a40f6b8379e5fc041b = $(`<div id="html_ebd2b9444906c5a40f6b8379e5fc041b" style="width: 100.0%; height: 100.0%;">It has been said that late at night Capitol employees have sited old senators and governors from the 1800s pacing the hallways and walking up and down staircases.</div>`)[0];
+                popup_3219e0200ed86f0d0cdec26686336a1e.setContent(html_ebd2b9444906c5a40f6b8379e5fc041b);
+            
+        
+
+        marker_7e42ce2caead0807504350a7ca440492.bindPopup(popup_3219e0200ed86f0d0cdec26686336a1e)
+        ;
+
+        
+    
+    
+            marker_7e42ce2caead0807504350a7ca440492.bindTooltip(
+                `<div>
+                     The State Capitol
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c1931ff91247668ed9eeb2485d80f3d = L.marker(
+                [44.95515, -93.102233],
+                {}
+            ).addTo(map_b49aa350c653a4e3ab230e03923825f1);
+        
+    
+        var popup_de594c2308c0b917dd6097407e840bea = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_04dc490ad05dcc59038c0a2a86a64cd8 = $(`<div id="html_04dc490ad05dcc59038c0a2a86a64cd8" style="width: 100.0%; height: 100.0%;">A man is said to haunt the third on floor. A janitor claimed to see him one night while working late. The ghost is believed to be the spirit of James Rice, who died in the office in the fall of 1996.</div>`)[0];
+                popup_de594c2308c0b917dd6097407e840bea.setContent(html_04dc490ad05dcc59038c0a2a86a64cd8);
+            
+        
+
+        marker_7c1931ff91247668ed9eeb2485d80f3d.bindPopup(popup_de594c2308c0b917dd6097407e840bea)
+        ;
+
+        
+    
+    
+            marker_7c1931ff91247668ed9eeb2485d80f3d.bindTooltip(
+                `<div>
+                     State Office Building on State Capitol Campus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_685a8cc0cebe5cf0b6479053e74c4e54 = L.marker(
+                [44.97399, -93.2277285],
+                {}
+            ).addTo(map_b49aa350c653a4e3ab230e03923825f1);
+        
+    
+        var popup_1aa1138e34791fa6f57da95f7cabad46 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_39f40014915eff5848388c348e427359 = $(`<div id="html_39f40014915eff5848388c348e427359" style="width: 100.0%; height: 100.0%;">Washington Avenue Bridge - The Washington Avenue Bridge connects the east bank from the west bank which house separate portions of campus. There have been several suicides off of the bridge into the Mississippi river below, most often by students. Late at night if you walk through the tunnel you can sometimes hear footsteps following you. If you turn around they will stop, and then continue again when you start to move. Also, the University of Minnesota had to remove several flags from the bridge, because they were being ripped down by an unseen force. Even while under surveillance.</div>`)[0];
+                popup_1aa1138e34791fa6f57da95f7cabad46.setContent(html_39f40014915eff5848388c348e427359);
+            
+        
+
+        marker_685a8cc0cebe5cf0b6479053e74c4e54.bindPopup(popup_1aa1138e34791fa6f57da95f7cabad46)
+        ;
+
+        
+    
+    
+            marker_685a8cc0cebe5cf0b6479053e74c4e54.bindTooltip(
+                `<div>
+                     The University of Minnesota
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
